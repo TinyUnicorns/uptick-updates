@@ -3,6 +3,18 @@
     <channel>
         <title>Uptick</title>
         <item>
+            <title>1.1</title>
+            <pubDate>Mon, 01 Jun 2026 13:34:43 -0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick-1.1.dmg" length="3231009" type="application/octet-stream" sparkle:edSignature="MjxxcJU7f2VZHnCqVzwFtfcu8iT37Fa9N6D0Fkw1OEM0qMOFY59Bsg3GNbHCIJKyBcYrVkNV+xkpqGatFSowAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick2-1.0.delta" sparkle:deltaFrom="1.0" length="10278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T9yFAykOsAayBLdfrs9jOD1dv+eWY7gaNMxxv5hwjOA3/qFQmHk48CM+ARCnZ7oUGVscsJsXITHTZcfsw5JiAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Mon, 01 Jun 2026 13:27:32 -0400</pubDate>
             <sparkle:version>1.0</sparkle:version>
