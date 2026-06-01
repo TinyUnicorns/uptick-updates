@@ -13,6 +13,25 @@
             <sparkle:deltas>
                 <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick2-1.0.delta" sparkle:deltaFrom="1.0" length="10278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T9yFAykOsAayBLdfrs9jOD1dv+eWY7gaNMxxv5hwjOA3/qFQmHk48CM+ARCnZ7oUGVscsJsXITHTZcfsw5JiAQ=="/>
             </sparkle:deltas>
+            <description sparkle:format="markdown"><![CDATA[## Uptick 1.1
+
+**Pacing got smarter**
+- Times now match Amazon (Pacific time) so the day-over-day comparison lines up.
+- The "vs yesterday" badge compares today against yesterday *at the same time of day*.
+- Smarter end-of-day projection based on yesterday's shape.
+- Fixed the hover tooltip — it now tracks your cursor and shows the right values.
+
+**Overview table**
+- Switching Group By and changing pages is instant now (cached), with a clean loading state.
+- Added a refresh button.
+
+**Sign in**
+- Paste (⌘V) now works in the sign-in window.
+- "Sign in again" fully signs out and back in; clearer signed-in confirmation.
+
+**Under the hood**
+- Automatic updates (you're using them right now 🎉).
+]]></description>
         </item>
         <item>
             <title>1.0</title>
