@@ -3,6 +3,29 @@
     <channel>
         <title>Uptick</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Tue, 02 Jun 2026 16:55:04 -0400</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Uptick 1.2
+
+**Pacing, reimagined**
+- Compare today against **Yesterday**, a rolling **N-day average** (grows from your history up to 7 days), **All-time average**, and **any specific day** via the new dropdown — each a toggleable line.
+- New **"ahead / behind"** badges for both yesterday and the rolling average.
+- **Momentum arrows** in the tooltip show, hour by hour, whether you're gaining ground or slipping behind each line.
+- Hover anywhere on the chart: the tooltip **snaps to clean hourly points**, reads every visible line at that time, and shows the gap to today.
+- All series are aligned to a consistent **hourly grid** for a cleaner, comparable story.
+- Times are shown in **Pacific** to match Amazon's reporting day.
+]]></description>
+            <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick-1.2.dmg" length="3285113" type="application/octet-stream" sparkle:edSignature="HLjH/qltVWY+sk/ZrIsXor4iz41Q9wquhtRgbPTtwjaBJcf/U+VQssz+6cMk8HALWQh9hKrSj06o+s2uOOiNAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick3-2.delta" sparkle:deltaFrom="2" length="127270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ad96arLfGvzv5yedx8PzmVmuKcmrHC52q0uusfgWkel+Htc98Ha4l6GtnFtSZ/a17gA6lQdCJZ0pxfLBH4xwCw=="/>
+                <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick3-1.0.delta" sparkle:deltaFrom="1.0" length="126606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J4z+HBwIgiK80Kn9E1R4Sw0UKAge+5GSiAjocRdS94LM+IH+Z8ndtXLIbedUWzJuya67+UTggXNNjDPTyVFKAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Mon, 01 Jun 2026 13:34:43 -0400</pubDate>
             <sparkle:version>2</sparkle:version>
