@@ -1,7 +1,14 @@
 # Uptick updates
 
-This repo is served via **GitHub Pages** at https://tinyunicorns.github.io/uptick-updates/
-and hosts two things:
+This repo is served via **GitHub Pages** at **https://uptick.tinyunicorns.co/**
+(custom domain, set by the `CNAME` file). The old project URL
+`https://tinyunicorns.github.io/uptick-updates/` 301-redirects here, so any client
+or appcast still pointing at it keeps working (Sparkle follows redirects).
+
+DNS: a `uptick` CNAME → `tinyunicorns.github.io` on Cloudflare, **DNS-only** (grey
+cloud) so GitHub can provision the HTTPS cert.
+
+It hosts two things:
 
 - **`index.html`** — the public landing page where anyone can download Uptick.
   The download button resolves the newest `.dmg` straight from `appcast.xml` at page
