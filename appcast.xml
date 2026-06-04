@@ -3,6 +3,27 @@
     <channel>
         <title>Uptick</title>
         <item>
+            <title>1.4</title>
+            <pubDate>Thu, 04 Jun 2026 06:17:53 -0700</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Uptick 1.4
+
+**Fixes a new-day glitch**
+- After your Mac slept overnight, Uptick could keep showing **yesterday's** total — and the Pacing tab would project a wildly inflated end-of-day number. Fixed: Uptick now refreshes the moment your Mac wakes, rolls over cleanly at the start of each day (Pacific), and never displays a figure that isn't actually today's.
+
+**Universal app**
+- Uptick is now a **universal binary** — it runs natively on both **Apple Silicon** and **Intel** Macs. Still requires macOS 13 (Ventura) or later.
+]]></description>
+            <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick-1.4.dmg" length="3697664" type="application/octet-stream" sparkle:edSignature="pXvies30mz9L0upi329LChQIEVHdpK/1ecjtIjXAbqE1/u1boGSGf6YX/vF+mjdyVAvA1v4guMU/6BKWCwC0Bw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick5-3.delta" sparkle:deltaFrom="3" length="366618" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dxz/bn4vIAyiuJYOLscKr9vARbStKSiyw7fyeOH2qrklsx7zpGUktAIHX7Bvv3/g51vieRTqFbDFu8Mm8X+mBQ=="/>
+                <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick5-2.delta" sparkle:deltaFrom="2" length="407754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z7ricCy0D7LL3nTom7beUqqFS6KnAB+FtCDOkef2A3EEYbnO+iejmrt5OwgHJwfOGyCYluYIWnO7dw0T4bprDA=="/>
+                <enclosure url="https://tinyunicorns.github.io/uptick-updates/Uptick5-1.0.delta" sparkle:deltaFrom="1.0" length="408458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7SFpgeO+Z5EGSEzurDEXvXzaJjnBdBKm8ilKjhb9UAMkLPyJywpgDgY4F2jCP2FuPXkAEJoCBJsU2a2DDKtpBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Tue, 02 Jun 2026 16:55:04 -0400</pubDate>
             <sparkle:version>3</sparkle:version>
